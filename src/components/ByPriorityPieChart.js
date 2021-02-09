@@ -1,20 +1,19 @@
-
-import { ResponsivePie } from '@nivo/pie'
-import { data } from '../by-priority-data'
+import { ResponsivePie } from '@nivo/pie';
+import { data } from '../by-priority-data';
+import './Charts.css';
 
 export const ByPriorityPieChart = () => {
-
     return (
-        <div style={{ height: '400px' }}>
+        <div className='pie'>
             <ResponsivePie
                 data={data}
                 margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
                 innerRadius={0.5}
                 padAngle={0.7}
                 cornerRadius={3}
-                colors={{ scheme: 'set3' }}
+                colors={{ datum: 'data.color' }}
                 borderWidth={1}
-                borderColor={{ from: 'color', modifiers: [['darker', 0.2]] }}
+                borderColor={{ from: 'color', modifiers: [ [ 'darker', 0.2 ] ] }}
                 radialLabelsSkipAngle={10}
                 radialLabelsTextColor="#333333"
                 radialLabelsLinkColor={{ from: 'color' }}
@@ -41,21 +40,12 @@ export const ByPriorityPieChart = () => {
                     }
                 ]}
                 fill={[
-
                     {
                         match: {
-                            id: 'urgent'
-                        },
-                        id: 'dots'
-                    },
-
-                    {
-                        match: {
-                            id: 'ordinary'
+                            id: "Доставки на операційний стіл"
                         },
                         id: 'lines'
-                    },
-
+                    }
                 ]}
                 legends={[
                     {

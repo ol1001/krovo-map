@@ -1,5 +1,26 @@
 .header {
-  color: crimson;
     font-weight: 400;
     text-align: center;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 90%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 0;
+    font-size: xx-large;
+    font-weight: 500;
 }
