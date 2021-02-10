@@ -2,31 +2,31 @@ import './App.css';
 import {CalendarChart} from './components/CalendarChart'
 import {PieChart} from './components/PieChart'
 import {BubbleChart} from './components/BubbleChart'
-import {Container, Row, Col} from 'react-bootstrap';
+import {BulletChart} from './components/BulletChart'
+import logo from './logo_mh.png';
 
 function App() {
     return (
-        <Container fluid>
-            <h1 className="header">Термінова доставка крові у графіках</h1>
-            <Row>
-                <Col>
-                    <h2>Розподіл за типом запиту</h2>
-                    <BubbleChart/>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h2>Календар</h2>
-                    <CalendarChart/>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h2>Розподіл за локацією</h2>
-                    <PieChart/>
-                </Col>
-            </Row>
-        </Container>
+        <div className="box-container">
+            <img src={logo} alt="NGO Motohelp" width="156" height="156" />
+            <h1>KROVO у графіках</h1>
+            <div className="box">
+                <h2>Календар</h2>
+                <CalendarChart/>
+            </div>
+            <div className="box">
+                <h2>Розподіл за типом запиту</h2>
+                <BubbleChart/>
+            </div>
+            <div className="box">
+                <h2>Розподіл за локацією</h2>
+                <PieChart/>
+            </div>
+            <div className="box">
+                <h2>Кількість кілометрів</h2>
+                <BulletChart/>
+            </div>
+        </div>
     );
 }
 
