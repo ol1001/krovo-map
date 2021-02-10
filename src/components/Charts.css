@@ -1,4 +1,32 @@
-.pie, .bubble {
+.bubble-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie {
+    margin: 20px auto;
+}
+
+.bubble, .pie {
     height: 400px;
-    //margin: 20px auto;
+    width: 680px;
+}
+
+.bubble-legend {
+    list-style: none;
+    width: 200px;
+}
+
+.bubble-legend li {
+    padding: 8px 0;
+}
+
+.legend-circle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-right: 10px;
 }
