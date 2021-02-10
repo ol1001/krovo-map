@@ -1,5 +1,5 @@
 import { ResponsivePie } from '@nivo/pie';
-import { data } from '../pie-data';
+import { data } from '../data/pie-data';
 import './Charts.css';
 
 export const PieChart = () => {

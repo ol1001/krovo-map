@@ -1,5 +1,5 @@
 import {ResponsiveBubble} from '@nivo/circle-packing'
-import {data} from '../by-type-data';
+import {data} from '../data/by-type-data';
 import './Charts.css';
 
 export const BubbleChart = () => {
@@ -22,6 +22,8 @@ export const BubbleChart = () => {
                     motionDamping={12}
                 />
             </div>
+            <div>
+                <h3>2021 рік</h3>
             <ul className="bubble-legend">
                 {data.children.length ?
                     data.children.map(i => (
@@ -32,6 +34,7 @@ export const BubbleChart = () => {
                         )
                     ) : null}
             </ul>
+            </div>
         </div>
     )
 }

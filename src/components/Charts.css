@@ -4,13 +4,36 @@
     align-items: center;
 }
 
-.pie {
+.pie, .bubble-container, .calendar-container, .bullet {
     margin: 20px auto;
+    border: 2px solid lightgrey;
+    padding-bottom: 20px;
+
 }
 
-.bubble, .pie {
-    height: 400px;
+.bubble {
+    width: 480px;
+}
+
+.pie, .bubble-container {
     width: 680px;
+}
+
+.pie, .bubble {
+    height: 400px;
+}
+
+.bullet {
+    height: 240px;
+    width: 680px;
+}
+
+.bubble-container h3 {
+    margin-left: 40px;
+}
+
+.bullet h3 {
+    text-align: center;
 }
 
 .bubble-legend {
@@ -29,4 +52,9 @@
     background-color: aqua;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.calendar-container {
+    width: 900px;
+    height: 600px;
 }
