@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/krovo-map/static/css/main.91116dd5.chunk.css",
+    "main.css": "/krovo-map/static/css/main.3ecccf14.chunk.css",
     "main.js": "/krovo-map/static/js/main.d0fa49bd.chunk.js",
     "main.js.map": "/krovo-map/static/js/main.d0fa49bd.chunk.js.map",
     "runtime-main.js": "/krovo-map/static/js/runtime-main.d29b752d.js",
@@ -8,14 +8,14 @@
     "static/js/2.7a97be20.chunk.js": "/krovo-map/static/js/2.7a97be20.chunk.js",
     "static/js/2.7a97be20.chunk.js.map": "/krovo-map/static/js/2.7a97be20.chunk.js.map",
     "index.html": "/krovo-map/index.html",
-    "static/css/main.91116dd5.chunk.css.map": "/krovo-map/static/css/main.91116dd5.chunk.css.map",
+    "static/css/main.3ecccf14.chunk.css.map": "/krovo-map/static/css/main.3ecccf14.chunk.css.map",
     "static/js/2.7a97be20.chunk.js.LICENSE.txt": "/krovo-map/static/js/2.7a97be20.chunk.js.LICENSE.txt",
     "static/media/logo_mh.663584d2.png": "/krovo-map/static/media/logo_mh.663584d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d29b752d.js",
     "static/js/2.7a97be20.chunk.js",
-    "static/css/main.91116dd5.chunk.css",
+    "static/css/main.3ecccf14.chunk.css",
     "static/js/main.d0fa49bd.chunk.js"
   ]
 }
