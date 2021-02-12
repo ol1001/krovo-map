@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/krovo-map/static/css/main.5ad9a309.chunk.css",
-    "main.js": "/krovo-map/static/js/main.316df57c.chunk.js",
-    "main.js.map": "/krovo-map/static/js/main.316df57c.chunk.js.map",
-    "runtime-main.js": "/krovo-map/static/js/runtime-main.0dadd35b.js",
-    "runtime-main.js.map": "/krovo-map/static/js/runtime-main.0dadd35b.js.map",
-    "static/js/2.599148b0.chunk.js": "/krovo-map/static/js/2.599148b0.chunk.js",
-    "static/js/2.599148b0.chunk.js.map": "/krovo-map/static/js/2.599148b0.chunk.js.map",
+    "main.css": "/krovo-map/static/css/main.b3153ec3.chunk.css",
+    "main.js": "/krovo-map/static/js/main.f96dcbb4.chunk.js",
+    "main.js.map": "/krovo-map/static/js/main.f96dcbb4.chunk.js.map",
+    "runtime-main.js": "/krovo-map/static/js/runtime-main.d29b752d.js",
+    "runtime-main.js.map": "/krovo-map/static/js/runtime-main.d29b752d.js.map",
+    "static/js/2.7a97be20.chunk.js": "/krovo-map/static/js/2.7a97be20.chunk.js",
+    "static/js/2.7a97be20.chunk.js.map": "/krovo-map/static/js/2.7a97be20.chunk.js.map",
     "index.html": "/krovo-map/index.html",
-    "static/css/main.5ad9a309.chunk.css.map": "/krovo-map/static/css/main.5ad9a309.chunk.css.map",
-    "static/js/2.599148b0.chunk.js.LICENSE.txt": "/krovo-map/static/js/2.599148b0.chunk.js.LICENSE.txt",
+    "static/css/main.b3153ec3.chunk.css.map": "/krovo-map/static/css/main.b3153ec3.chunk.css.map",
+    "static/js/2.7a97be20.chunk.js.LICENSE.txt": "/krovo-map/static/js/2.7a97be20.chunk.js.LICENSE.txt",
     "static/media/logo_mh.663584d2.png": "/krovo-map/static/media/logo_mh.663584d2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0dadd35b.js",
-    "static/js/2.599148b0.chunk.js",
-    "static/css/main.5ad9a309.chunk.css",
-    "static/js/main.316df57c.chunk.js"
+    "static/js/runtime-main.d29b752d.js",
+    "static/js/2.7a97be20.chunk.js",
+    "static/css/main.b3153ec3.chunk.css",
+    "static/js/main.f96dcbb4.chunk.js"
   ]
 }
