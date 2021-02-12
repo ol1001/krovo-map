@@ -9,7 +9,7 @@ export const data = {
             color: "#fde0d2"
         },
         {
-            "name": "Доставка крові",
+            "name": "В банк крові",
             "loc": 5,
             color: "#fcbba1"
         },
@@ -19,7 +19,7 @@ export const data = {
             color: "#fb9272"
         },
         {
-            "name": "На операцію",
+            "name": "В операційну",
             "loc": 6,
             color: "#fa6a4a"
         },

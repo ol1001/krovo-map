@@ -8,7 +8,6 @@
     margin: 20px auto;
     border: 2px solid lightgrey;
     padding-bottom: 20px;
-
 }
 
 .bubble {
@@ -19,6 +18,7 @@
     height: 1200px;
     width: 100%;
 }
+
 .pie, .bubble-container {
     width: 680px;
 }
@@ -61,4 +61,36 @@
 .calendar-container {
     width: 900px;
     height: 600px;
+}
+
+@media only screen and (max-width: 640px) {
+    .box-container {
+        width: 640px;
+    }
+    .sankey {
+        height: 600px;
+        width: 900px;
+    }
+    .pie, .bubble-container {
+        width: 100%;
+    }
+    .pie, .bubble {
+        height: 400px;
+    }
+    .bubble {
+        width: 100%;
+    }
+    .bullet {
+        height: 180px;
+        width: 480px;
+    }
+    .bubble-legend {
+        list-style: none;
+        width: 160px;
+        padding: 0;
+        font-size: 0.8em;
+    }
+    .bubble-container h3 {
+        margin: 0;
+    }
 }
