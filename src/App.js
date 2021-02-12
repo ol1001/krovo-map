@@ -3,6 +3,7 @@ import {CalendarChart} from './components/CalendarChart'
 import {PieChart} from './components/PieChart'
 import {BubbleChart} from './components/BubbleChart'
 import {BulletChart} from './components/BulletChart'
+import {SankeyChart} from './components/SankeyChart'
 import logo from './logo_mh.png';
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
             <div className="box">
                 <h2>Кількість кілометрів</h2>
                 <BulletChart/>
+            </div>
+            <div className="box">
+                <h2>Мапа</h2>
+                <SankeyChart/>
             </div>
         </div>
     );

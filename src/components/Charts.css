@@ -15,6 +15,10 @@
     width: 480px;
 }
 
+.sankey {
+    height: 1200px;
+    width: 100%;
+}
 .pie, .bubble-container {
     width: 680px;
 }
